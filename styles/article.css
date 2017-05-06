@@ -1,0 +1,32 @@
+body{
+	background-color:rgb(38,38,38);
+}
+.container{
+	width:960px;
+	margin:auto;
+	color:white;
+}
+.title{
+	padding:0px;
+}
+.title h1{
+	color:white;
+	float:left;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+	padding:0px;
+	margin:10px 0px 5px 0px;
+}
+.title p{
+	float:right;
+	padding:0px;
+	margin:30px 0px 5px 0px;
+}
+.divider{
+    width:960px;
+    margin:auto;
+}
+.footer{
+    width:352px;
+    height:78px;
+    margin:auto;
+}

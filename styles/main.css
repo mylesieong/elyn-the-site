@@ -1,0 +1,157 @@
+/* Will be compiled down to a single stylesheet with your sass files */
+body{
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    background:rgb(38,38,38);
+    width:100%;
+}
+.container{
+    width:960px;
+    margin:0 auto;
+}
+.container:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+header img{
+    position:relative;
+    left:50%;
+    margin-left:-250px;
+    margin-bottom:-50px;
+    padding:30px 0px 60px 0px;
+    width:500px;
+}
+.banner_container {
+    margin:10px 0 30px;
+    height:278px;
+    overflow:hidden;
+}
+.article{
+    float:left;
+    width:60%;
+    overflow:hidden;
+    margin-right:15px;
+}
+.textcontainer p {
+    background-color:none;
+    margin:0px;
+    padding:5px 0px;
+    -webkit-transition:all linear 0.2s;
+}
+.textcontainer p a{
+    
+    color:white;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+    font-weight: bold;
+    font-size:1.5em;
+    -webkit-transition:all linear 0.2s;
+}
+.textcontainer p:hover{
+    
+    background-color:white;
+    -webkit-transition:all linear 0.2s;
+}
+.textcontainer p:hover  a{
+    padding-left:20px;
+    color:black;
+    -webkit-transition:all linear 0.2s;
+}
+
+.textcontainer p a:hover{
+    padding-left:30px;
+    -webkit-transition:all linear 0.1s;
+}
+.comment{
+    width:38%;
+    float:right;
+
+}
+
+.item{
+    position:relative;
+    margin-bottom:20px;
+    overflow:hidden;
+}
+.item img{
+    width:100%;
+}
+.item a{
+    text-decoration:none;
+}
+.itembg{
+    position:absolute;
+    width:100%;
+    height: 80px;
+    top:113px;
+    padding:1px 15px;
+    color: #fff;
+    background:rgba(0,0,0,0.5);
+    -webkit-transition:all linear 0.1s;
+}
+.itembg h2{
+    margin:10px 0;
+}
+.item:hover .itembg{
+    padding-left:20px;
+    cursor:pointer;
+}
+.item .content{
+    background:white;
+    background:rgb(28,28,28);
+    color:rgba(255,255,255,0.72);
+    display:none;
+    
+    //line-height:0;
+    //opacity:0;
+    //-webkit-transition:all ease-out 0.3s;
+}
+.imgcontainer{
+    text-align:center;
+}
+.videore{
+    float:left;
+    width:180px;
+    height:180px;
+    position:relative;
+}
+.play2{
+    position:relative;
+    left:288px;
+    top:162px;
+    margin-left:-50px;
+    margin-top:-50px;
+    opacity:0;
+    -webkit-transition:all linear 0.1s;
+}
+.play{
+    position:relative;
+    left:90px;
+    top:90px;
+    margin-left:-33px;
+    margin-top:-33px;
+    opacity:0;
+    -webkit-transition:all linear 0.1s;
+}
+.videore:hover .play2{
+    opacity:1;
+    -webkit-transition:all linear 0.1s;
+}
+.videore:hover .play{
+    opacity:1;
+    -webkit-transition:all linear 0.1s;
+}
+
+.show_content .content{
+    //line-height:1.5;
+    //opacity:1;
+}
+.divider{
+    width:960px;
+    margin:auto;
+}
+.footer{
+    width:352px;
+    height:78px;
+    margin:auto;
+}
+#ds-thread #ds-reset .ds-comment-body p {color: #ffffff;}
